@@ -21,6 +21,8 @@
   "postAttachCommand": {
     "server": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
+  "ghcr.io/devcontainers/features/python:1": {},
+  "ghcr.io/devcontainers/features/node:1": {},
   "portsAttributes": {
     "8501": {
       "label": "Application",
@@ -31,3 +33,4 @@
     8501
   ]
 }
+
